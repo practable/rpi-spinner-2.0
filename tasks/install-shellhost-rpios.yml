@@ -19,7 +19,7 @@
      chdir: /home/pi/sources/relay/cmd/shell      
 
  - name: shell install
-   command: cp shell-relay /usr/local/bin
+   command: cp shell /usr/local/bin/shell-relay
    args:
      chdir: /home/pi/sources/relay/cmd/shell
 

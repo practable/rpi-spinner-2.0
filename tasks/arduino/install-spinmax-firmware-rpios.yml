@@ -26,7 +26,7 @@
     command: arduino-cli core install arduino:samd
 
   - name: Compile spinner firmware
-    command: arduino-cli compile --fqbn arduino:samd:nano_33_iot SpinningDiskController/ --libraries /home/pi/sources/spinner-amax/libraries
+    command: arduino-cli compile --fqbn arduino:samd:nano_33_iot SpinningDiskController/ --libraries /home/pi/sources/spinner-amax/fw/libraries
     args:
       chdir: /home/pi/sources/spinner-amax/fw
 

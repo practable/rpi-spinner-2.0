@@ -20,7 +20,7 @@ filename='./(\w*).\w*.(\w*)'
 for i in $DIR/video.access.*; do
 	[[ $i =~ $filename ]]
 	last="${BASH_REMATCH[2]}"
-	out="shellhost.service.${last}"
+	out="shellhost2.service.${last}"
 	export SHELLTOKEN_TOPIC="$last"
 	export TOKEN=$(shellrelay token)
 	export SESSION="${SHELLTOKEN_AUDIENCE}/${SHELLTOKEN_CONNECTIONTYPE}/${SHELLTOKEN_TOPIC}"

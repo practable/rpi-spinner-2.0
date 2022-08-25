@@ -12,6 +12,6 @@
 
        
   - name: install cmd/session to usr/local/bin
-    command: cp session-relay /usr/local/bin
+    command: cp session /usr/local/bin/session-relay
     args:
       chdir: /home/pi/sources/relay/cmd/session
