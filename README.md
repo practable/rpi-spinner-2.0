@@ -1,2 +1,2 @@
-# odroid-spinnner-2.0
-Odroid set up for the spinner 2.0 experiments
+# rpi-spinnner-2.0
+How to set up a Raspberry Pi to run a spinner 2.0 experiment
