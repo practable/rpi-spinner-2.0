@@ -7,13 +7,14 @@ The process is fairly simple
 0. Log in to check you have ssh access
 1. Run a configure script on your admin machine
 2. Run three ansible playbooks on your admin machine (which set things up on the rpi over ssh)
+3. Reboot your RPI
 3. Your experiment should be working
 
 ## Abbreviations
 
-BYOD - Bring Your Own Device
-OS - Operating System
-SBC - single board computer (Raspberry Pi, Odroid, etc)
+- BYOD - Bring Your Own Device
+- OS - Operating System
+- SBC - single board computer (Raspberry Pi, Odroid, etc)
 
 ## Formatting
 
